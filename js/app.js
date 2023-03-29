@@ -20,6 +20,7 @@ function gameQuizz() {
   let userAnswers = ["", "", "", "", ""];
 
   questions.forEach(game);
+  prompt("well done :" + nameUser);
 
   function game(question, number) {
     console.log(number);
@@ -42,15 +43,15 @@ function gameQuizz() {
         }
         answerRight = true;
         if (userAnswers[number] == goodAnswers[number]) {
+          //console.log("good answer");
           alert("Good answer !");
         } else {
           alert(returnText[number]);
+          //console.log("bad answer");
         }
       } else {
         answerTemp = prompt("please answer with y/n or yes/no :\n" + question);
-        console.log(answerTemp.toLowerCase());
       }
-      console.log(question + " " + userAnswers[number]);
     }
   }
 }
