@@ -1,0 +1,44 @@
+body {
+  background-color: #358c5b;
+  color: #c8c8c8;
+}
+header,
+footer {
+  background-color: #141514;
+  padding: 1rem;
+  text-align: center;
+}
+h2 {
+  color: black;
+  text-decoration: underline;
+}
+section {
+  border-style: dotted;
+  border-color: black;
+  border-width: 2px;
+  text-align: justify;
+  width: 90%;
+  margin: 10px auto;
+  padding: 5px;
+}
+.main-container {
+  width: 90%;
+  margin: 10px auto;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 700px) {
+  .main-container {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  section {
+    width: 40%;
+    margin: 10px auto;
+  }
+}
