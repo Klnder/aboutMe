@@ -8,7 +8,7 @@ I build a website about me, with a little game in JS
 
 ### Links and Resources
 
-- [submission PR](http://xyz.com)
+- [submission website](https://klnder.github.io/aboutMe/)
 
 ### Lighthouse Accessibility Report Score
 
