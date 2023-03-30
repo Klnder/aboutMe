@@ -45,18 +45,18 @@ ol {
   list-style-type: decimal;
   padding: 2rem;
 }
+ul {
+  list-style-type: disc;
+  margin: 1rem;
+}
+li {
+  margin: 5px;
+}
 
-/* li::before {
-  content: "";
-  width: 1rem;
-  height: 1rem;
-  background: url("../img/me.gif");
-} */
-/* .list-text > li::before {
+/* .list-text > li::marker {
   height: 1rem;
   width: 1rem;
-  content: "AA";
-  /*url("../img/me.gif");
+  background: url(../img/me.gif) ;
 } */
 
 @media (min-width: 700px) {
