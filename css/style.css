@@ -1,6 +1,9 @@
 body {
   background-color: #358c5b;
   color: #c8c8c8;
+  font-family: "Cabin", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
 }
 header,
 footer {
@@ -8,9 +11,16 @@ footer {
   padding: 1rem;
   text-align: center;
 }
+h1 {
+  padding: 10px;
+}
 h2 {
-  color: black;
+  background-color: #104502;
+  color: white;
   text-decoration: underline;
+  text-align: center;
+  padding: 3px;
+  font-weight: 600;
 }
 section {
   border-style: dotted;
@@ -20,6 +30,7 @@ section {
   width: 90%;
   margin: 10px auto;
   padding: 5px;
+  box-sizing: content-box;
 }
 .main-container {
   width: 90%;
@@ -29,6 +40,10 @@ section {
   border-color: black;
   display: flex;
   flex-direction: column;
+}
+ol {
+  list-style-type: decimal;
+  padding: 2rem;
 }
 
 @media (min-width: 700px) {
@@ -40,5 +55,11 @@ section {
   section {
     width: 40%;
     margin: 10px auto;
+  }
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
   }
 }
