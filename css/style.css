@@ -4,12 +4,11 @@ body {
   font-family: "Cabin", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  overflow: scroll;
 }
 header,
 footer {
   background-color: #141514;
-  padding: 1rem;
+  padding: 10px;
   text-align: center;
 }
 h1 {
@@ -35,7 +34,7 @@ section {
 }
 .main-container {
   width: 90%;
-  margin: 10px auto;
+  margin: 3rem auto;
   border-style: dashed;
   border-width: 2px;
   border-color: black;
@@ -46,6 +45,19 @@ ol {
   list-style-type: decimal;
   padding: 2rem;
 }
+
+/* li::before {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  background: url("../img/me.gif");
+} */
+/* .list-text > li::before {
+  height: 1rem;
+  width: 1rem;
+  content: "AA";
+  /*url("../img/me.gif");
+} */
 
 @media (min-width: 700px) {
   .main-container {
