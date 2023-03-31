@@ -67,11 +67,11 @@ function gameQuizz() {
     console.log(numberToGuess);
     let numberUser;
 
-    for (let i = 0; i < 4; i++) {
+    for (let i = 4; i > 0; i--) {
       numberUser = prompt(
         "Guess a number between 1 and 10: " +
           "\n You have " +
-          (4 - i) +
+          i +
           " attempts lefts :"
       );
       if (numberUser != numberToGuess) {
@@ -111,9 +111,9 @@ function gameQuizz() {
     }
     let userAnswer = "";
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 6; i > 0; i--) {
       userAnswer = prompt(
-        questionText + "\nYou have " + (6 - i) + " attempts lefts :"
+        questionText + "\nYou have " + i + " attempts lefts :"
       );
       for (let j = 0; j < correctAnswer.length; j++) {
         if (userAnswer.toLowerCase() == correctAnswer[j].toLowerCase()) {
