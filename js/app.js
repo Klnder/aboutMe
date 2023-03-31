@@ -129,6 +129,8 @@ function gameQuizz() {
     for (let i = 0; i < answerList.length; i++) {
       questionText += answerList[i] + "\n";
     }
+    let userAnswer = "";
+
     for (let i = 6; i > 0; i--) {
       userAnswer = prompt(
         questionText + "\nYou have " + i + " attempts lefts :"
