@@ -11,17 +11,6 @@ footer {
   padding: 10px;
   text-align: center;
 }
-h1 {
-  padding: 10px;
-}
-h2 {
-  background-color: #104502;
-  color: white;
-  text-decoration: underline;
-  text-align: center;
-  padding: 3px;
-  font-weight: 600;
-}
 section {
   /* border-style: dotted;
   border-color: black;
@@ -41,6 +30,22 @@ section {
   display: flex;
   flex-direction: column;
 }
+
+h1 {
+  padding: 10px;
+}
+h2 {
+  background-color: #104502;
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  padding: 3px;
+  font-weight: 600;
+}
+button {
+  padding: 10px;
+}
+
 ol {
   list-style-type: decimal;
   padding: 2rem;
@@ -54,7 +59,6 @@ ul {
 .icons-list {
   height: 1rem;
   width: 1rem;
-  color: white;
 }
 @media (min-width: 700px) {
   .main-container {
