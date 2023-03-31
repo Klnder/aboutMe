@@ -1,6 +1,6 @@
 body {
-  background-color: #358c5b;
-  color: #c8c8c8;
+  background-color: #1f8505;
+  color: #fcfbfa;
   font-family: "Cabin", sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -23,9 +23,9 @@ h2 {
   font-weight: 600;
 }
 section {
-  border-style: dotted;
+  /* border-style: dotted;
   border-color: black;
-  border-width: 2px;
+  border-width: 2px; */
   text-align: justify;
   width: 90%;
   margin: 10px auto;
@@ -35,9 +35,9 @@ section {
 .main-container {
   width: 90%;
   margin: 3rem auto;
-  border-style: dashed;
+  /* border-style: dashed;
   border-width: 2px;
-  border-color: black;
+  border-color: black; */
   display: flex;
   flex-direction: column;
 }
@@ -45,20 +45,17 @@ ol {
   list-style-type: decimal;
   padding: 2rem;
 }
-ul {
-  list-style-type: disc;
-  margin: 1rem;
-}
 li {
-  margin: 5px;
+  padding-bottom: 0.4rem;
 }
-
-/* .list-text > li::marker {
+ul {
+  padding: 2rem;
+}
+.icons-list {
   height: 1rem;
   width: 1rem;
-  background: url(../img/me.gif) ;
-} */
-
+  color: white;
+}
 @media (min-width: 700px) {
   .main-container {
     flex-direction: row;
