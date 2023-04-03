@@ -12,9 +12,6 @@ footer {
   text-align: center;
 }
 section {
-  /* border-style: dotted;
-  border-color: black;
-  border-width: 2px; */
   background-color: #79b669;
   text-align: justify;
   width: 90%;
@@ -31,9 +28,6 @@ section:hover {
 .main-container {
   width: 90%;
   margin: 3rem auto;
-  /* border-style: dashed;
-  border-width: 2px;
-  border-color: black; */
   display: flex;
   flex-direction: column;
 }
@@ -62,6 +56,9 @@ li {
 }
 ul {
   padding: 2rem;
+}
+.list-text > li::marker {
+  content: "-> ";
 }
 .icons-list {
   height: 1rem;
