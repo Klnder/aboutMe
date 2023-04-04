@@ -13,3 +13,4 @@ I build a website about me, with a little game in JS
 ### Lighthouse Accessibility Report Score
 
 ![lighthouse report](file://lighthouse.png)
+![lightouse report](lighthouse.png)
