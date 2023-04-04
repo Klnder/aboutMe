@@ -12,4 +12,4 @@ I build a website about me, with a little game in JS
 
 ### Lighthouse Accessibility Report Score
 
-- Provide a screenshot of your score after running a Lighthouse Accessibility report.
+![lighthouse report](lightouse report.png)
