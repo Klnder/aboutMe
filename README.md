@@ -12,4 +12,4 @@ I build a website about me, with a little game in JS
 
 ### Lighthouse Accessibility Report Score
 
-![lighthouse report](lightouse report.png)
+![lighthouse report](file://../lighthouse%20report.png)
