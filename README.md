@@ -2,7 +2,7 @@
 
 ## About Me website
 
-I build a website about me, with a little game in JS
+I build a website about me, with a little game in JS using alert and confirm.
 
 ### Author: Jeremy Merlin
 
